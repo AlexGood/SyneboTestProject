@@ -1,0 +1,15 @@
+PODS:
+  - FeedKit (7.0.0)
+  - SVProgressHUD (2.2.1)
+
+DEPENDENCIES:
+  - FeedKit
+  - SVProgressHUD
+
+SPEC CHECKSUMS:
+  FeedKit: 5f044bbefb6eea7b2f1ff1321b575295bfbdf3fc
+  SVProgressHUD: db27c54e6e18bc903341661fc9feb55e04905cc4
+
+PODFILE CHECKSUM: f290c0306055c991c626c01742063ea4e656576a
+
+COCOAPODS: 1.3.1

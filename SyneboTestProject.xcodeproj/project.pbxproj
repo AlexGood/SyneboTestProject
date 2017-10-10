@@ -7,21 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EFEABDC110EF233FE3CF5963 /* Pods_SyneboTestProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B21E19E8BF57ACC74F3755D /* Pods_SyneboTestProject.framework */; };
 		FA4666021F8CF806007F6B3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4666011F8CF806007F6B3B /* AppDelegate.swift */; };
-		FA4666041F8CF806007F6B3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4666031F8CF806007F6B3B /* ViewController.swift */; };
-		FA4666071F8CF806007F6B3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA4666051F8CF806007F6B3B /* Main.storyboard */; };
+		FA4666041F8CF806007F6B3B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4666031F8CF806007F6B3B /* FirstViewController.swift */; };
 		FA4666091F8CF806007F6B3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA4666081F8CF806007F6B3B /* Assets.xcassets */; };
 		FA46660C1F8CF806007F6B3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA46660A1F8CF806007F6B3B /* LaunchScreen.storyboard */; };
+		FA4666141F8CF86A007F6B3B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4666131F8CF86A007F6B3B /* SecondViewController.swift */; };
+		FA4666181F8CF913007F6B3B /* FirstUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4666171F8CF913007F6B3B /* FirstUI.swift */; };
+		FA46661A1F8CFE5A007F6B3B /* SecondUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4666191F8CFE5A007F6B3B /* SecondUI.swift */; };
+		FA46661C1F8D02A7007F6B3B /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA46661B1F8D02A7007F6B3B /* AppConstants.swift */; };
+		FA4666211F8D08EB007F6B3B /* SecondTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4666201F8D08EB007F6B3B /* SecondTableViewDelegate.swift */; };
+		FA4666241F8D1595007F6B3B /* SimpleAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4666231F8D1595007F6B3B /* SimpleAlert.swift */; };
+		FA4666271F8D17D5007F6B3B /* FeedDescribingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4666261F8D17D5007F6B3B /* FeedDescribingVC.swift */; };
+		FA4666291F8D18D1007F6B3B /* FeedDescriptionUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4666281F8D18D1007F6B3B /* FeedDescriptionUI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B21E19E8BF57ACC74F3755D /* Pods_SyneboTestProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SyneboTestProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ED2C9B1D25827A3464E64B6 /* Pods-SyneboTestProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SyneboTestProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-SyneboTestProject/Pods-SyneboTestProject.release.xcconfig"; sourceTree = "<group>"; };
+		EE93C2E37F1CFD78BC09660A /* Pods-SyneboTestProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SyneboTestProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SyneboTestProject/Pods-SyneboTestProject.debug.xcconfig"; sourceTree = "<group>"; };
 		FA4665FE1F8CF806007F6B3B /* SyneboTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SyneboTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA4666011F8CF806007F6B3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FA4666031F8CF806007F6B3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FA4666061F8CF806007F6B3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA4666031F8CF806007F6B3B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		FA4666081F8CF806007F6B3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA46660B1F8CF806007F6B3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA46660D1F8CF806007F6B3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA4666131F8CF86A007F6B3B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		FA4666171F8CF913007F6B3B /* FirstUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstUI.swift; sourceTree = "<group>"; };
+		FA4666191F8CFE5A007F6B3B /* SecondUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondUI.swift; sourceTree = "<group>"; };
+		FA46661B1F8D02A7007F6B3B /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		FA4666201F8D08EB007F6B3B /* SecondTableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTableViewDelegate.swift; sourceTree = "<group>"; };
+		FA4666231F8D1595007F6B3B /* SimpleAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAlert.swift; sourceTree = "<group>"; };
+		FA4666261F8D17D5007F6B3B /* FeedDescribingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedDescribingVC.swift; sourceTree = "<group>"; };
+		FA4666281F8D18D1007F6B3B /* FeedDescriptionUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedDescriptionUI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFEABDC110EF233FE3CF5963 /* Pods_SyneboTestProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37C8FC898185E373FBE0DB5D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE93C2E37F1CFD78BC09660A /* Pods-SyneboTestProject.debug.xcconfig */,
+				7ED2C9B1D25827A3464E64B6 /* Pods-SyneboTestProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B9023B9D26FC2A9B30631BE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B21E19E8BF57ACC74F3755D /* Pods_SyneboTestProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FA4665F51F8CF806007F6B3B = {
 			isa = PBXGroup;
 			children = (
 				FA4666001F8CF806007F6B3B /* SyneboTestProject */,
 				FA4665FF1F8CF806007F6B3B /* Products */,
+				37C8FC898185E373FBE0DB5D /* Pods */,
+				B9023B9D26FC2A9B30631BE2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +93,52 @@
 			isa = PBXGroup;
 			children = (
 				FA4666011F8CF806007F6B3B /* AppDelegate.swift */,
-				FA4666031F8CF806007F6B3B /* ViewController.swift */,
-				FA4666051F8CF806007F6B3B /* Main.storyboard */,
+				FA46661B1F8D02A7007F6B3B /* AppConstants.swift */,
+				FA46661D1F8D0374007F6B3B /* Helpers */,
+				FA4666151F8CF8DB007F6B3B /* FirstVC */,
+				FA4666161F8CF8FB007F6B3B /* SecondVC */,
+				FA4666251F8D17BB007F6B3B /* FeedDescribingVC */,
 				FA4666081F8CF806007F6B3B /* Assets.xcassets */,
 				FA46660A1F8CF806007F6B3B /* LaunchScreen.storyboard */,
 				FA46660D1F8CF806007F6B3B /* Info.plist */,
 			);
 			path = SyneboTestProject;
+			sourceTree = "<group>";
+		};
+		FA4666151F8CF8DB007F6B3B /* FirstVC */ = {
+			isa = PBXGroup;
+			children = (
+				FA4666031F8CF806007F6B3B /* FirstViewController.swift */,
+				FA4666171F8CF913007F6B3B /* FirstUI.swift */,
+			);
+			path = FirstVC;
+			sourceTree = "<group>";
+		};
+		FA4666161F8CF8FB007F6B3B /* SecondVC */ = {
+			isa = PBXGroup;
+			children = (
+				FA4666131F8CF86A007F6B3B /* SecondViewController.swift */,
+				FA4666191F8CFE5A007F6B3B /* SecondUI.swift */,
+				FA4666201F8D08EB007F6B3B /* SecondTableViewDelegate.swift */,
+			);
+			path = SecondVC;
+			sourceTree = "<group>";
+		};
+		FA46661D1F8D0374007F6B3B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FA4666231F8D1595007F6B3B /* SimpleAlert.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		FA4666251F8D17BB007F6B3B /* FeedDescribingVC */ = {
+			isa = PBXGroup;
+			children = (
+				FA4666261F8D17D5007F6B3B /* FeedDescribingVC.swift */,
+				FA4666281F8D18D1007F6B3B /* FeedDescriptionUI.swift */,
+			);
+			path = FeedDescribingVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +148,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA4666101F8CF806007F6B3B /* Build configuration list for PBXNativeTarget "SyneboTestProject" */;
 			buildPhases = (
+				1BB41144B2458ECBD7E4D791 /* [CP] Check Pods Manifest.lock */,
 				FA4665FA1F8CF806007F6B3B /* Sources */,
 				FA4665FB1F8CF806007F6B3B /* Frameworks */,
 				FA4665FC1F8CF806007F6B3B /* Resources */,
+				8742BAF5B760DE7DCCE57650 /* [CP] Embed Pods Frameworks */,
+				C11C89EDD02E9635B4C39EAD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,18 +205,81 @@
 			files = (
 				FA46660C1F8CF806007F6B3B /* LaunchScreen.storyboard in Resources */,
 				FA4666091F8CF806007F6B3B /* Assets.xcassets in Resources */,
-				FA4666071F8CF806007F6B3B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BB41144B2458ECBD7E4D791 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SyneboTestProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8742BAF5B760DE7DCCE57650 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SyneboTestProject/Pods-SyneboTestProject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FeedKit/FeedKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FeedKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SyneboTestProject/Pods-SyneboTestProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C11C89EDD02E9635B4C39EAD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SyneboTestProject/Pods-SyneboTestProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FA4665FA1F8CF806007F6B3B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA4666041F8CF806007F6B3B /* ViewController.swift in Sources */,
+				FA4666041F8CF806007F6B3B /* FirstViewController.swift in Sources */,
+				FA4666211F8D08EB007F6B3B /* SecondTableViewDelegate.swift in Sources */,
+				FA46661C1F8D02A7007F6B3B /* AppConstants.swift in Sources */,
+				FA4666141F8CF86A007F6B3B /* SecondViewController.swift in Sources */,
+				FA46661A1F8CFE5A007F6B3B /* SecondUI.swift in Sources */,
+				FA4666241F8D1595007F6B3B /* SimpleAlert.swift in Sources */,
+				FA4666181F8CF913007F6B3B /* FirstUI.swift in Sources */,
+				FA4666291F8D18D1007F6B3B /* FeedDescriptionUI.swift in Sources */,
+				FA4666271F8D17D5007F6B3B /* FeedDescribingVC.swift in Sources */,
 				FA4666021F8CF806007F6B3B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,14 +287,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FA4666051F8CF806007F6B3B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FA4666061F8CF806007F6B3B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FA46660A1F8CF806007F6B3B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -272,6 +407,7 @@
 		};
 		FA4666111F8CF806007F6B3B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE93C2E37F1CFD78BC09660A /* Pods-SyneboTestProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +423,7 @@
 		};
 		FA4666121F8CF806007F6B3B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ED2C9B1D25827A3464E64B6 /* Pods-SyneboTestProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
